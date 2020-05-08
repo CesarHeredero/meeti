@@ -1,0 +1,30 @@
+{
+    "name": "meeti",
+    "version": "1.0.0",
+    "description": "Curso Udemy NodeJS",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CesarHeredero/meeti.git"
+    },
+    "author": "César Heredero",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CesarHeredero/meeti/issues"
+    },
+    "homepage": "https://github.com/CesarHeredero/meeti#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.2",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0",
+        "pg": "^8.0.3",
+        "sequelize": "^5.21.7"
+    }
+}
