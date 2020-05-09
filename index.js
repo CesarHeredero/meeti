@@ -3,6 +3,9 @@ const router = require('./routes');
 const path = require('path');
 const expresLayout = require('express-ejs-layouts');
 
+const db = require('./config/db');
+require('./models/Usuarios');
+db.sync().then(() => console.log('DB Conectada')).catch((error) => console.log('error'));
 
 require('dotenv').config({ path: 'variables.env' });
 
